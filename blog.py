@@ -5,7 +5,7 @@ import config
 
 openai.api_key = config.OPENAI_API_KEY
 
-
+ 
 def generateBlogTopics(prompt1):
     response = openai.Completion.create(
       engine="davinci-instruct-beta-v3",
